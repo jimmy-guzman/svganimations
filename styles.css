@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: #edeff0;
+  background: url("svgs/background.min.svg") #edeff0;
 }
 
 #container {
@@ -32,6 +32,7 @@ a:hover {
   color: #111;
 }
 
+
 header {
   padding-top: 10px;
 }
@@ -45,6 +46,12 @@ header nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
+a:hover svg path{
+  fill: #111;
+}
+
+
 
 main {
   padding-top: 50px;
