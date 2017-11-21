@@ -47,10 +47,18 @@ header nav ul li {
   margin-right: 20px;
 }
 
-a:hover svg path{
+a:hover .nav-icon{
   fill: #111;
 }
 
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-icon {
+  transform: scale(0.65);
+}
 
 
 main {
