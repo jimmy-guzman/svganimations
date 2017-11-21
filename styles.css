@@ -84,7 +84,7 @@ a:hover .nav-icon {
 /*logo styles */
 
 .logo-text {
-  opacity: 0;
+  display: none;
 }
 
 .paw-print{
@@ -119,6 +119,6 @@ a:hover .nav-icon {
     display: none;
   }
   .logo-text {
-    opacity: 1;
+    display: block;
   }
 }
