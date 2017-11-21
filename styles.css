@@ -83,6 +83,10 @@ a:hover .nav-icon {
 
 /*logo styles */
 
+.logo-text {
+  opacity: 0;
+}
+
 .paw-print{
   transition: .45s ease-out;
   transform-origin: 50% 50%;
