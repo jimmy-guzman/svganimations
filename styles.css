@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 300;
   color: #111;
   background: url("svgs/background.min.svg") #edeff0;
@@ -64,10 +64,10 @@ footer {
   color: #ba8058;
 }
 
-
 /* nav styles */
+
 li {
-  transition: .35s ease-in;
+  transition: 0.35s ease-in;
   transform-origin: 50% 50%;
 }
 
@@ -75,10 +75,8 @@ li:hover {
   transform: scale(1.15);
 }
 
-
 a:hover .nav-icon {
   fill: #111;
-
 }
 
 /*logo styles */
@@ -87,16 +85,17 @@ a:hover .nav-icon {
   display: none;
 }
 
-.paw-print{
-  transition: .45s ease-out;
+.paw-print {
+  transition: 0.45s ease-out;
   transform-origin: 50% 50%;
 }
-.logo:hover .paw-print{
+
+.logo:hover .paw-print {
   transform: scale(1.1);
 }
 
-
 /*corgi styles*/
+
 .corgi-caption {
   display: block;
   padding-right: 2em;
@@ -111,6 +110,21 @@ a:hover .nav-icon {
   justify-content: space-around;
 }
 
+.sable {
+  color: #b97f5b;
+}
+
+.fawn {
+  color: #e9aa82;
+}
+
+.red {
+  color: #834b29;
+}
+
+.stone {
+  color: #52595e;
+}
 
 /* media queries  */
 
