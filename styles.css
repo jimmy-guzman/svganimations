@@ -7,7 +7,7 @@ body {
   font-family: "Roboto Slab", serif;
   font-weight: 300;
   color: #111;
-  background: url("svgs/background.min.svg") #edeff0;
+  background: url("svgs/background.svg") #edeff0;
 }
 
 #container {
@@ -64,6 +64,7 @@ footer {
   color: #ba8058;
 }
 
+
 /* nav styles */
 
 li {
@@ -72,12 +73,17 @@ li {
 }
 
 li:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
+}
+
+.nav-icon {
+  transition: 0.65s ease-in;
 }
 
 a:hover .nav-icon {
   fill: #111;
 }
+
 
 /*logo styles */
 
@@ -91,8 +97,18 @@ a:hover .nav-icon {
 }
 
 .logo:hover .paw-print {
-  transform: scale(1.1);
+  transform: scale(1.25);
+  fill: #ba8058;
 }
+
+.logo-icon-bg {
+  transition: 0.45s ease-in-out;
+}
+
+.logo:hover .logo-icon-bg {
+  opacity: 0;
+}
+
 
 /*corgi styles*/
 
@@ -125,6 +141,7 @@ a:hover .nav-icon {
 .stone {
   color: #52595e;
 }
+
 
 /* media queries  */
 
